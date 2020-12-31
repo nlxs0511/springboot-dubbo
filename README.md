@@ -15,3 +15,5 @@
     </dependency>
     
 3.集成不同版本dubbo 依赖的jar包可能不同，配置文件也可能不同，不能一概而论。
+
+4.dubbo底层使用netty源码分析https://blog.csdn.net/weixin_39358110/article/details/102998356
