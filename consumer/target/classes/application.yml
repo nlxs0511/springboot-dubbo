@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+
+dubbo:
+  application:
+    id: consumer #dubbo提供者的别名，只是个标识
+  base-package: com.dubbo.controller # dubbo服务发布者所在的包
+  registry:
+    address: zookeeper://127.0.0.1:2181
