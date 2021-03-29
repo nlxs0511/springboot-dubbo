@@ -13,6 +13,10 @@ dubbo:
     port: 2181       # zookeeper注册中心的端口
     protocol: zookeeper
     register: true
+#    address: redis://127.0.0.1:6379
+#    port: 6379       # zookeeper注册中心的端口
+#    protocol: redis
+#    register: true
   protocol:
     name: dubbo #dubbo协议
     port: 20880 #duboo端口号
