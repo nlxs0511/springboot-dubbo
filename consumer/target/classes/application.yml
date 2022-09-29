@@ -7,4 +7,7 @@ dubbo:
     id: consumer #dubbo提供者的别名，只是个标识
   base-package: com.dubbo.controller # dubbo服务发布者所在的包
   registry:
+    #zookeeper注册中心
     address: zookeeper://127.0.0.1:2181
+    #redis注册中心
+    #address: redis://127.0.0.1:6379

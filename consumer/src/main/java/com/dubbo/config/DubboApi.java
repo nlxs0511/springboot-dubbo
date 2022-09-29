@@ -23,12 +23,12 @@ public class DubboApi {
       // application.setName("com.dubbo.controller");
        return application;
    }
-   @Bean
-   public RegistryConfig registryConfig(){
-       RegistryConfig registryConfig=new RegistryConfig();
-       registryConfig.setAddress("redis://127.0.0.1:6379");
-       return registryConfig;
-   }
+//   @Bean
+//   public RegistryConfig registryConfig(){
+//       RegistryConfig registryConfig=new RegistryConfig();
+//       registryConfig.setAddress("redis://127.0.0.1:6379");
+//       return registryConfig;
+//   }
 
 
 }

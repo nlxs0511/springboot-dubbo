@@ -1,6 +1,6 @@
 package com.dubbo.service.impl;
 
-import com.dubbo.service.HelloService;
+import com.dubbo.HelloService;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.stereotype.Component;
 
