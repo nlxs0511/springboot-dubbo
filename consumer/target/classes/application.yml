@@ -1,6 +1,17 @@
 server:
   port: 8083
-
+nacos:
+  namespace: 06b1ae23-eb95-443a-9eea-b8ad07242150
+  url: localhost:8848
+spring:
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: ${nacos.url}
+        #nacos新建namespace
+        namespace: ${nacos.namespace}
 
 dubbo:
   application:
@@ -8,6 +19,12 @@ dubbo:
   base-package: com.dubbo.controller # dubbo服务发布者所在的包
   registry:
     #zookeeper注册中心
-    address: zookeeper://127.0.0.1:2181
+    #address: zookeeper://127.0.0.1:2181
     #redis注册中心
     #address: redis://127.0.0.1:6379
+    address: nacos://127.0.0.1:8848
+
+
+
+
+

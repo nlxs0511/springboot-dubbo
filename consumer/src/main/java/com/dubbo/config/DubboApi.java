@@ -1,3 +1,4 @@
+/*
 package com.dubbo.config;
 
 import org.apache.dubbo.config.ApplicationConfig;
@@ -6,12 +7,14 @@ import org.apache.dubbo.config.RegistryConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+*/
 /**
  * @Description 代替配置文件配置dubbo 启动类@EnableDubbo不能忘
  * @project
  * @author：hf
  * @date：
- */
+ *//*
+
 @Configuration
 public class DubboApi {
 
@@ -32,3 +35,4 @@ public class DubboApi {
 
 
 }
+*/
